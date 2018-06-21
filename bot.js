@@ -796,7 +796,7 @@ client.on('message', message => {
 client.on('message', message => {
   if (true) {
 if (message.content === '!>invite') {
-      message.author.send(' رابط البوت |  البوت خاص في اوريو كرافت لا يمكنك استدعائه للسرفر الخاص بك ').catch(e => console.log(e.stack));
+      message.author.send(' رابط البوت |  البوت خاص ب اوريو كرافت لا يمكنك استدعائه للسرفر الخاص بك ').catch(e => console.log(e.stack));
 
     }
    } 

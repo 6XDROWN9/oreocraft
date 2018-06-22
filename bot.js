@@ -1,9 +1,4 @@
 const Discord = require("discord.js");
-const ms = require("ms");
-const fs = require("fs");
-var Canvas = require('canvas');
-var jimp = require('jimp');
-var file = require('file-system');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -1525,8 +1520,5 @@ client.on("roleCreate", rc => {
 
 client.on('guildMemberAdd', member => {
 const welcomer =  member.guild.channels.find('name', 'welcome');
-
-var Canvas = require('canvas')
-var jimp = require('jimp')
 
 client.login('NDU5NDk1MTA3NTY1OTc3NjAw.Dg3CVw.DXhurydOr4k7TIUYsBowtOmFBDI');

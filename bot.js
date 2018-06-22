@@ -910,6 +910,12 @@ client.on('message', message => {
       message.author.sendMessage(invite.url)
     )
     const embed = new Discord.RichEmbed()
+        .setColor("RANDOM")
+        .setDescription("| :white_check_mark:  | :heart:  تم ارسال الرابط على الخاص  ")
+      message.channel.sendEmbed(embed).then(message => {message.delete(10000)})
+              const Embed11 = new Discord.RichEmbed()
+        .setColor("RANDOM")
+                .setAuthor(message.guild.name, message.guild.iconURL)
         .setDescription(`
 **
 ---------------------
@@ -920,12 +926,6 @@ client.on('message', message => {
 -هذا الرابط صالح لمده 24 ساعه فقط
 ---------------------
 **`)
-        .setColor("RANDOM")
-        .setDescription("| :white_check_mark:  | :heart:  تم ارسال الرابط على الخاص  ")
-      message.channel.sendEmbed(embed).then(message => {message.delete(10000)})
-              const Embed11 = new Discord.RichEmbed()
-        .setColor("RANDOM")
-                .setAuthor(message.guild.name, message.guild.iconURL)
       message.author.sendEmbed(Embed11)
     }
 });

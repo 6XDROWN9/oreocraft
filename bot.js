@@ -33,7 +33,7 @@ client.on("message", message => {
       
       .addField("『!>help』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
       
-	    .addField("『!>help2』👻『اذا تبي الاوامر العامة』😳", true)
+      .addField("『!>help2』👻『اذا تبي الاوامر العامة』😳", true)
 	    
       .addField("『!>help3』😮『اذا تبي  الاوامر الادارية』🤒", true)
   
@@ -436,7 +436,6 @@ message.author.sendEmbed(embed)
 
 client.on("message", message => {
  if (message.content === "!>help2") {
-        message.react("😳")
                 message.react("👻")
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
@@ -489,7 +488,6 @@ message.author.sendEmbed(embed)
 
 client.on("message", message => {
  if (message.content === "!>music") {
-        message.react("😳")
                 message.react("🎶")
   const embed = new Discord.RichEmbed() 
       .setColor("RANDOM")

@@ -1518,7 +1518,5 @@ client.on("roleCreate", rc => {
   }
  });
 
-client.on('guildMemberAdd', member => {
-const welcomer =  member.guild.channels.find('name', 'welcome');
 
 client.login('NDU5NDk1MTA3NTY1OTc3NjAw.Dg3CVw.DXhurydOr4k7TIUYsBowtOmFBDI');

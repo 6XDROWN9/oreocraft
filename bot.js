@@ -27,7 +27,7 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField(" PowerX 『اسم البوت』", true)
+      .addField(" OreoCraft 『اسم البوت』", true)
       
       .addField("XDROWN#5950『مصمم البوت』", true)
       

@@ -924,7 +924,7 @@ client.on('message', message => {
 client.on('message', message => {
   if (true) {
 if (message.content === '!>رابط') {
-      message.author.send(' |https://discord.gg/dbzxbC7| رابط السرفر').catch(e => console.log(e.stack));
+      message.author.send(' |https://discord.gg/UB423sn| رابط السرفر').catch(e => console.log(e.stack));
 
     }
    } 
